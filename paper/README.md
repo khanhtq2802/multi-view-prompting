@@ -22,6 +22,12 @@ MVP có thể lập mô hình multi-view, multi-task (dưới dạng hoán vị 
 
 ![alt text](image-1.png)
 
+chọn một subset trong mọi hoán ví của các thành phần sentiment (6 for the triplet and 24 for the quadruplet) để nhanh và hiệu quả
+
+some views give the same corect tuples, while some views might be wrong, but it's unlikely to result in the same error. Different views tend to show more agreement in the correct sentiment tuples
+
+để tận dụng ngữ nghĩa của nhãn, theo (Zhang et al.), tác giả diễn giải các phần tử  (a,c,o,s) sang ngôn ngữ tự nhiên riêng biệt (ea, ec, eo, es). Ví dụ đối với sentiment polarity (s) "POS" --> "great"; với opinion term (o) "NULL" --> "it"
+
 
 
 3. Thực nghiệm và kết quả
